@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1st Class Decks &amp; Construction | Deck Builder &amp; General Contractor in Hobart, IN</title>
+<meta name="description" content="Custom decks, deck repair, porches, additions, permitting and site prep for homeowners in Hobart and Lake County, Indiana. Call (219) 759-1455 for a free on-site estimate.">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;border-radius:0}
+  :root{
+    --slate:#1C1C1E;
+    --cedar:#6B4A32;
+    --text:#ECE6DD;
+    --muted:#C9C0B4;
+    --rust:#C05621;
+    --rule:rgba(192,86,33,.45);
+    --head:"Oswald","Bebas Neue","Arial Narrow",Impact,sans-serif;
+    --body:"Archivo","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  }
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--slate);color:var(--text);font-family:var(--body);font-size:1rem;line-height:1.5;letter-spacing:-.005em}
+  img{display:block;max-width:100%}
+  a{color:var(--text)}
+  h1,h2,h3{font-family:var(--head);text-transform:uppercase;letter-spacing:.08em;line-height:1.05;margin:0;font-weight:600}
+  p{margin:0 0 1em}
+  .wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 1.25rem}
+  .skip{position:absolute;left:-999px;top:0;background:var(--rust);color:var(--slate);padding:.6rem 1rem;font-weight:700;z-index:50}
+  .skip:focus{left:0}
+  hr.divider{border:0;border-top:1px solid var(--rule);margin:0}
+  .eyebrow{font-family:var(--head);text-transform:uppercase;letter-spacing:.22em;font-size:.85rem;color:var(--muted);margin:0 0 .9rem;font-weight:500}
+
+  .btn{display:inline-block;background:var(--rust);color:var(--text);font-family:var(--head);text-transform:uppercase;letter-spacing:.12em;font-weight:700;font-size:1.2rem;text-decoration:none;padding:.95rem 1.6rem;border:0}
+  .btn:focus-visible,.link:focus-visible,a:focus-visible{outline:2px solid var(--text);outline-offset:3px}
+  .btn-ghost{background:transparent;border:1px solid var(--text);color:var(--text)}
+
+  /* Photo slots (no src until real photos exist) */
+  .photo{width:100%;height:100%;object-fit:cover;background:#2A2A2D;color:#8E867C;font-size:.8rem}
+
+  /* HERO */
+  .hero{position:relative;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;background:#26262A}
+  .hero .photo{position:absolute;inset:0}
+  .hero-top{position:absolute;top:0;left:0;right:0;padding:1rem 1.25rem;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+  .hero-top span{font-family:var(--head);text-transform:uppercase;letter-spacing:.2em;font-size:.8rem;background:var(--slate);padding:.35rem .6rem}
+  .hero-strip{position:relative;background:var(--slate);border-top:1px solid var(--rust)}
+  .hero-strip .wrap{padding-top:1.6rem;padding-bottom:1.8rem;display:grid;gap:1.1rem}
+  .hero h1{font-size:clamp(2.2rem,8vw,4.6rem);font-weight:700}
+  .hero-sub{color:var(--muted);max-width:42rem;margin:0}
+  .hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.6rem}
+  .phone{font-family:var(--head);font-size:1.6rem;letter-spacing:.06em;text-decoration:none;font-weight:600}
+  @media(min-width:860px){
+    .hero-strip .wrap{grid-template-columns:1.4fr 1fr;align-items:end}
+    .hero-actions{justify-content:flex-end}
+  }
+
+  /* INTRO */
+  .intro{padding:4.5rem 0}
+  .intro-grid{display:grid;gap:2.5rem}
+  .intro h2{font-size:clamp(1.9rem,5vw,3rem)}
+  .intro p{max-width:38rem;color:var(--muted)}
+  .facts{list-style:none;margin:0;padding:0;display:grid;gap:0}
+  .facts li{border-top:1px solid var(--rule);padding:1rem 0;display:flex;justify-content:space-between;gap:1rem;align-items:baseline}
+  .facts li:last-child{border-bottom:1px solid var(--rule)}
+  .facts strong{font-family:var(--head);text-transform:uppercase;letter-spacing:.1em;font-size:1.5rem;font-weight:600}
+  .facts span{color:var(--muted);text-align:right;font-size:.95rem}
+  @media(min-width:860px){.intro-grid{grid-template-columns:1.3fr 1fr;align-items:start}}
+
+  /* BUILD (board-by-board) */
+  .build{background:var(--cedar)}
+  .build-pin{padding:3.5rem 0}
+  .build-track{display:flex;gap:2rem;padding:0 1.25rem;overflow-x:auto;align-items:stretch}
+  .build-lead{flex:0 0 min(80vw,420px);display:flex;flex-direction:column;justify-content:center}
+  .build-lead h2{font-size:clamp(2rem,6vw,3.4rem);margin-bottom:1rem}
+  .build-lead p{color:var(--text)}
+  .build-lead .hint{font-family:var(--head);text-transform:uppercase;letter-spacing:.2em;font-size:.85rem;margin-top:.5rem}
+  .build-frame{position:relative;flex:0 0 auto;width:max(240vw,1700px);height:min(62vh,560px);min-height:340px;overflow:hidden;background:#2A2A2D;margin:0}
+  .build-frame .photo{position:absolute;inset:0}
+  .planks{position:absolute;inset:0;display:flex}
+  .plank{flex:1 1 0;background:var(--slate);border-right:1px solid rgba(192,86,33,.35);transform-origin:top center;transform:scaleY(1)}
+  .stages{position:absolute;left:0;right:0;bottom:0;display:flex}
+  .stage{flex:1 1 0;padding:1rem 1.1rem;background:rgba(28,28,30,.92);border-top:1px solid var(--rust);border-right:1px solid var(--rule)}
+  .stage h3{font-size:1.15rem;margin-bottom:.3rem}
+  .stage p{margin:0;font-size:.92rem;color:var(--muted);max-width:26rem}
+  .build-end{flex:0 0 min(80vw,380px);display:flex;flex-direction:column;justify-content:center;gap:1rem}
+  .build-end h3{font-size:1.9rem}
+  /* JS-enabled pinned mode */
+  .build.is-pinned .build-pin{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;display:flex;align-items:center;padding:0}
+  .build.is-pinned .build-track{overflow:visible;will-change:transform;position:relative}
+  .build.is-pinned .plank{transition:transform .55s ease-out}
+  .build.is-pinned .plank.down{transform:scaleY(0)}
+  .build:not(.is-pinned) .plank{display:none}
+  @media (prefers-reduced-motion:reduce){.plank{display:none}}
+
+  /* SERVICES */
+  .services{padding:4.5rem 0}
+  .section-head{margin-bottom:2.5rem;max-width:44rem}
+  .section-head h2{font-size:clamp(2rem,5.5vw,3.2rem);margin-bottom:.8rem}
+  .section-head p{color:var(--muted);margin:0}
+  .jobs{list-style:none;margin:0;padding:0}
+  .job{display:grid;gap:1.4rem;padding:2.2rem 0;border-top:1px solid var(--rule)}
+  .job:last-child{border-bottom:1px solid var(--rule)}
+  .job-photo{aspect-ratio:4/3;margin:0;overflow:hidden;background:#2A2A2D}
+  .job h3{font-size:clamp(1.5rem,4vw,2.1rem);margin-bottom:.8rem}
+  .job p{color:var(--muted);max-width:34rem}
+  .job ul{margin:0;padding:0;list-style:none}
+  .job li{padding:.35rem 0 .35rem 1.1rem;position:relative;font-size:.95rem}
+  .job li::before{content:"";position:absolute;left:0;top:.95em;width:.5rem;height:2px;background:var(--rust)}
+  @media(min-width:860px){
+    .job{grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+    .job:nth-child(even) .job-photo{order:2}
+  }
+
+  /* REGION */
+  .region{background:var(--cedar);padding:4.5rem 0}
+  .region-grid{display:grid;gap:2.5rem}
+  .region h2{font-size:clamp(2rem,5.5vw,3.2rem);margin-bottom:1rem}
+  .points{display:grid;gap:0;margin:0;padding:0;list-style:none}
+  .points li{border-top:1px solid rgba(236,230,221,.35);padding:1.2rem 0}
+  .points li:last-child{border-bottom:1px solid rgba(236,230,221,.35)}
+  .points h3{font-size:1.25rem;margin-bottom:.4rem}
+  .points p{margin:0}
+  @media(min-width:860px){.region-grid{grid-template-columns:1fr 1.2fr}}
+
+  /* ESTIMATE */
+  .estimate{padding:4.5rem 0 5rem}
+  .estimate h2{font-size:clamp(2.2rem,7vw,4.2rem);margin-bottom:1rem}
+  .estimate-grid{display:grid;gap:2.5rem}
+  .estimate p.lead{color:var(--muted);max-width:36rem}
+  .steps{margin:1.5rem 0 2rem;padding:0;list-style:none}
+  .steps li{padding:.7rem 0;border-top:1px solid var(--rule)}
+  .steps li:last-child{border-bottom:1px solid var(--rule)}
+  .steps strong{font-family:var(--head);text-transform:uppercase;letter-spacing:.1em;font-weight:600;display:block}
+  .contact-card{border-top:1px solid var(--rust);padding-top:1.5rem}
+  .contact-card dl{margin:0}
+  .contact-card dt{font-family:var(--head);text-transform:uppercase;letter-spacing:.2em;font-size:.85rem;color:var(--muted);margin-top:1.2rem}
+  .contact-card dd{margin:.3rem 0 0;font-size:1.15rem}
+  .contact-card dd a{font-family:var(--head);font-size:2rem;letter-spacing:.05em;text-decoration:none;font-weight:600}
+  .contact-actions{display:flex;flex-wrap:wrap;gap:1rem;margin-top:2rem}
+  @media(min-width:860px){.estimate-grid{grid-template-columns:1.3fr 1fr;align-items:start}}
+
+  footer{border-top:1px solid var(--rule);padding:2rem 0;font-size:.9rem;color:var(--muted)}
+  footer .wrap{display:grid;gap:.6rem}
+  footer strong{font-family:var(--head);text-transform:uppercase;letter-spacing:.12em;color:var(--text);font-weight:600}
+  @media(min-width:860px){footer .wrap{grid-template-columns:1fr auto;align-items:end}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero" aria-label="1st Class Decks &amp; Construction">
+  <img class="photo" data-photo-query="finished multi-level backyard deck at dusk Indiana" alt="finished multi-level backyard deck at dusk Indiana">
+  <div class="hero-top">
+    <span>Hobart, Indiana</span>
+    <span>Decks &middot; General Contracting</span>
+  </div>
+  <div class="hero-strip">
+    <div class="wrap">
+      <div>
+        <h1>1st Class Decks &amp; Construction</h1>
+        <p class="hero-sub">Decks and general contracting for Lake County homeowners who want their backyard built like a real construction project, not a weekend add-on.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="phone" href="tel:+12197591455">(219) 759-1455</a>
+        <a class="btn" href="#estimate">Request Free Estimate</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="intro" aria-labelledby="intro-title">
+    <div class="wrap intro-grid">
+      <div>
+        <p class="eyebrow">Who we are</p>
+        <h2 id="intro-title">A crew that builds for load, weather, and years of use</h2>
+        <p>We're a Northwest Indiana deck builder and general contractor. That means we frame multi-level decks, resurface tired boards, put up porches, and take on additions and structural work, all with the same crew and the same standard.</p>
+        <p>Our builds are made for Region winters and Region soil. Footings, framing, hardware, and decking get chosen for how they'll hold up in year ten, not how they look on day one.</p>
+      </div>
+      <ul class="facts" aria-label="Quick facts">
+        <li><strong>4.5 Rating</strong><span>across 39 reviews</span></li>
+        <li><strong>Decks + GC</strong><span>deck specialty, full contracting scope</span></li>
+        <li><strong>Lake County</strong><span>based in Hobart, IN</span></li>
+        <li><strong>Free</strong><span>on-site estimates</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section class="build" id="build" aria-labelledby="build-title">
+    <div class="build-pin">
+      <div class="build-track" id="buildTrack">
+        <div class="build-lead">
+          <p class="eyebrow" style="color:var(--text)">How a deck goes up</p>
+          <h2 id="build-title">Built board by board</h2>
+          <p>Every deck we build starts below the frost line and ends with the last railing post. Scroll to watch it go down plank by plank.</p>
+          <p class="hint" aria-hidden="true">Keep scrolling &rarr;</p>
+        </div>
+        <figure class="build-frame" id="buildFrame">
+          <img class="photo" data-photo-query="deck plank construction close-up installation" alt="deck plank construction close-up installation">
+          <div class="planks" aria-hidden="true">
+            <div class="plank"></div><div class="plank"></div><div class="plank"></div><div class="plank"></div>
+            <div class="plank"></div><div class="plank"></div><div class="plank"></div><div class="plank"></div>
+            <div class="plank"></div><div class="plank"></div><div class="plank"></div><div class="plank"></div>
+            <div class="plank"></div><div class="plank"></div><div class="plank"></div><div class="plank"></div>
+          </div>
+          <figcaption class="stages">
+            <div class="stage"><h3>Site &amp; permits</h3><p>Layout, permitting, and site prep handled before a shovel hits the ground.</p></div>
+            <div class="stage"><h3>Footings</h3><p>Set deep enough for Indiana frost and Lake County soil.</p></div>
+            <div class="stage"><h3>Framing</h3><p>Beams, posts, and joists sized for real loads, including multi-level layouts.</p></div>
+            <div class="stage"><h3>Decking</h3><p>Boards laid tight and fastened with hardware rated for outdoor exposure.</p></div>
+            <div class="stage"><h3>Rails &amp; finish</h3><p>Stairs, railings, and a final walk-through with you on the deck.</p></div>
+          </figcaption>
+        </figure>
+        <div class="build-end">
+          <h3>Ready for yours?</h3>
+          <p>We'll come out, walk the yard, and give you a straight answer on what it takes.</p>
+          <a class="btn" href="#estimate">Request Free Estimate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section class="services" id="services" aria-labelledby="services-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What we build</p>
+        <h2 id="services-title">Services</h2>
+        <p>Deck work is our specialty. General contracting is how we make sure the whole project gets done right, from permits to the last board.</p>
+      </div>
+      <ol class="jobs">
+        <li class="job">
+          <figure class="job-photo"><img class="photo" data-photo-query="custom deck framing construction Indiana homeowner" alt="custom deck framing construction Indiana homeowner"></figure>
+          <div>
+            <h3>Custom Deck Design &amp; Construction</h3>
+            <p>New decks designed around your house, your yard, and how you'll actually use the space. Single level or multi-level, framed to carry weight and last through Indiana winters.</p>
+            <ul><li>Multi-level and custom deck framing</li><li>Stairs, landings, and railings</li><li>Layouts planned with you on site</li></ul>
+          </div>
+        </li>
+        <li class="job">
+          <figure class="job-photo"><img class="photo" data-photo-query="deck resurfacing repair weathered boards" alt="deck resurfacing repair weathered boards"></figure>
+          <div>
+            <h3>Deck Repair &amp; Resurfacing</h3>
+            <p>Weathered boards, soft spots, loose rails. We check what's underneath, fix the structure that needs it, and put a fresh surface on a frame worth keeping.</p>
+            <ul><li>Board replacement and resurfacing</li><li>Structural repairs to joists and posts</li><li>Railing and stair repair</li></ul>
+          </div>
+        </li>
+        <li class="job">
+          <figure class="job-photo"><img class="photo" data-photo-query="home addition general contractor framing" alt="home addition general contractor framing"></figure>
+          <div>
+            <h3>General Contracting &amp; Additions</h3>
+            <p>When the job is bigger than a deck, we take on the whole thing. Home additions and structural work handled by a contractor with broad construction capability.</p>
+            <ul><li>Home additions</li><li>Structural work</li><li>One point of contact for the project</li></ul>
+          </div>
+        </li>
+        <li class="job">
+          <figure class="job-photo"><img class="photo" data-photo-query="covered porch outdoor structure build" alt="covered porch outdoor structure build"></figure>
+          <div>
+            <h3>Porches &amp; Outdoor Structures</h3>
+            <p>Front porches, covered areas, and outdoor structures that tie into your home and stand up to Region weather year after year.</p>
+            <ul><li>Front and back porches</li><li>Covered outdoor structures</li><li>Built for long-term outdoor living</li></ul>
+          </div>
+        </li>
+        <li class="job">
+          <figure class="job-photo"><img class="photo" data-photo-query="construction site permit survey stakes backyard" alt="construction site permit survey stakes backyard"></figure>
+          <div>
+            <h3>Permitting &amp; Site Prep</h3>
+            <p>Paperwork and groundwork come first. We handle permitting and prepare the site so your build starts on solid footing and stays on track.</p>
+            <ul><li>Permit applications</li><li>Site layout and preparation</li><li>Ground ready before framing starts</li></ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section class="region" aria-labelledby="region-title">
+    <div class="wrap region-grid">
+      <div>
+        <p class="eyebrow" style="color:var(--text)">Why homeowners call us</p>
+        <h2 id="region-title">Built for the Region</h2>
+        <p>Hobart freezes, thaws, and soaks. Outdoor structures here have to handle all of it. We build with that in mind from the footings up.</p>
+      </div>
+      <ul class="points">
+        <li><h3>Local trust</h3><p>A 4.5 rating across 39 reviews from homeowners around here.</p></li>
+        <li><h3>More than a deck installer</h3><p>A deck specialty backed by full general contracting scope, so one crew can carry the whole project.</p></li>
+        <li><h3>Weather and soil ready</h3><p>Northwest Indiana based and building for regional weather and ground conditions.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section class="estimate" id="estimate" aria-labelledby="estimate-title">
+    <div class="wrap estimate-grid">
+      <div>
+        <p class="eyebrow">Next step</p>
+        <h2 id="estimate-title">Get a free on-site estimate</h2>
+        <p class="lead">Call and tell us what you're thinking: a new deck, a repair, a porch, or an addition. We'll set a time to come out to your property in Hobart or anywhere around Lake County.</p>
+        <ol class="steps">
+          <li><strong>Call us</strong>Tell us about the project and your property.</li>
+          <li><strong>We walk the site</strong>We look at the yard, the house, and the ground.</li>
+          <li><strong>You get a straight estimate</strong>Clear scope, no pressure.</li>
+        </ol>
+      </div>
+      <div class="contact-card">
+        <dl>
+          <dt>Phone</dt>
+          <dd><a href="tel:+12197591455">(219) 759-1455</a></dd>
+          <dt>Address</dt>
+          <dd><address style="font-style:normal">686 N 718 W<br>Hobart, IN 46342</address></dd>
+          <dt>Service area</dt>
+          <dd>Hobart and surrounding Lake County communities</dd>
+        </dl>
+        <div class="contact-actions">
+          <a class="btn" href="tel:+12197591455">Request Free Estimate</a>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=686+N+718+W+Hobart+IN+46342">Directions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <strong>1st Class Decks &amp; Construction</strong><br>
+      686 N 718 W, Hobart, IN 46342 &middot; <a href="tel:+12197591455">(219) 759-1455</a><br>
+      &copy; 2026 1st Class Decks &amp; Construction
+    </div>
+    <div>Website sample by Wild Card Creative Co</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var sec=document.getElementById('build');
+  var track=document.getElementById('buildTrack');
+  var frame=document.getElementById('buildFrame');
+  if(!sec||!track||!frame) return;
+  if(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var planks=[].slice.call(frame.querySelectorAll('.plank'));
+  sec.classList.add('is-pinned');
+  var maxShift=0, ticking=false;
+
+  function size(){
+    track.style.transform='translate3d(0,0,0)';
+    maxShift=Math.max(0,track.scrollWidth-window.innerWidth);
+    sec.style.height=(maxShift+window.innerHeight)+'px';
+    update();
+  }
+  function update(){
+    ticking=false;
+    var r=sec.getBoundingClientRect();
+    var total=sec.offsetHeight-window.innerHeight;
+    var p=total>0?Math.min(1,Math.max(0,-r.top/total)):0;
+    var x=p*maxShift;
+    track.style.transform='translate3d('+(-x)+'px,0,0)';
+    var edge=window.innerWidth*0.72;
+    for(var i=0;i<planks.length;i++){
+      var left=frame.offsetLeft+planks[i].offsetLeft-x;
+      if(left<edge) planks[i].classList.add('down'); else planks[i].classList.remove('down');
+    }
+  }
+  window.addEventListener('scroll',function(){ if(!ticking){ticking=true;requestAnimationFrame(update);} },{passive:true});
+  window.addEventListener('resize',size);
+  size();
+})();
+</script>
+</body>
+</html>
